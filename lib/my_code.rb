@@ -51,7 +51,14 @@ def reduce_to_total (source, start)
 end
 
 def reduce_to_all_true (source)
-
+  index = 0
+  while index < source.count do
+    if !(source[index])
+      return false
+    else
+      index += 1
+  end
+  true
 end
 
 def reduce_to_any_true
