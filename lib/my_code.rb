@@ -57,6 +57,7 @@ def reduce_to_all_true (source)
       return false
     else
       index += 1
+    end
   end
   true
 end
