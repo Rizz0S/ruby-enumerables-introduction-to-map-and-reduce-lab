@@ -1,6 +1,6 @@
 # My Code here....
 
-def map_to_negatize (source)
+def map_to_negativize (source)
   index = 0
   result = []
   while index < source.count do
