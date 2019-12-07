@@ -62,7 +62,7 @@ def reduce_to_all_true (source)
   true
 end
 
-def reduce_to_any_true
+def reduce_to_any_true (source)
   index = 0
   while index < source.count do
     if (source[index])
