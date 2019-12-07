@@ -39,3 +39,21 @@ def map_to_square (source)
   end
   result
 end
+
+def reduce_to_total (source, start)
+  index = 0
+  result = 0
+  while index < source.count do
+    result += source[index]
+    index += 1
+  end
+  result
+end
+
+def reduce_to_all_true (source)
+
+end
+
+def reduce_to_any_true
+
+end
