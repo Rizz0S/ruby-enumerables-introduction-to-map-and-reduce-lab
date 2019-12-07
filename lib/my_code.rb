@@ -41,8 +41,8 @@ def map_to_square (source)
 end
 
 def reduce_to_total (source, start = 0)
-  index = start
-  result = 0
+  index = 0
+  result = starting_point
   while index < source.count do
     result += source[index]
     index += 1
