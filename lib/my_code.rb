@@ -63,5 +63,13 @@ def reduce_to_all_true (source)
 end
 
 def reduce_to_any_true
-
+  index = 0
+  while index < source.count do
+    if (source[index])
+      return true
+    else
+      index += 1
+    end
+  end
+  false
 end
